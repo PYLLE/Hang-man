@@ -11,10 +11,10 @@
 
 let hangman = function(){
 let self = {
-let words: [`banan`,`tomat`,`ananas`],
+    words: [`banan`,`tomat`,`ananas`],
     letterElement: null,
 }
-
+console.log(self)
 const word = words[Math.floor(Math.random() * words.length)];               //Gör ett slimpmässigtval av orden 
 console.log(word);
 
