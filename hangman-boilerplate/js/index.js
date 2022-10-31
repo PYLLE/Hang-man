@@ -7,3 +7,19 @@
  document.querySelector('figure').classList.add('legs')
 
  */
+
+
+let hangman = function(){
+let self = {
+let words: [`banan`,`tomat`,`ananas`],
+    letterElement: null,
+}
+
+const word = words[Math.floor(Math.random() * words.length)];               //Gör ett slimpmässigtval av orden 
+console.log(word);
+
+for (let i = 0; i <words.length; i++) {
+    let letterElement = document.createElement(`span`);
+    o.appendChild(letterElement);
+}
+}
